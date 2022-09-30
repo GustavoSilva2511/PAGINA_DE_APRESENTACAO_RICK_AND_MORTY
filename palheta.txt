@@ -1,0 +1,5 @@
+verde - #8BCF21
+verde_branco - #e0ffc3
+azulin - #25e4bc
+azul_preto - #3f8978
+preto - #3D373C

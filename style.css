@@ -1,0 +1,184 @@
+ *{
+    font-family: 'Franklin Gothic Medium';
+}
+
+body{
+    margin: auto;
+    background-image: url(https://i.pinimg.com/originals/22/58/24/2258249e9b4084cda4fdc9c798818d19.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    box-shadow: inset 0px 145px 20px rgba(0, 0, 0, 0.30);
+}
+header{
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg);
+    background-color: #8BCF21;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.40);
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow:5px 5px 6px black;
+}
+
+header div img{
+    border: 2px solid black;
+    border-radius: 100px;
+
+}
+
+main{
+    height: auto;
+}
+
+section{
+    color: #8BCF21;
+    column-rule: 2px solid black;
+    background-color:#00000091;
+    text-align: center;
+    margin-inline: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 2px;
+    
+    
+}
+section p {
+    margin-inline: 10%;
+    font-size: 120%;
+}
+
+#div-with-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.divlink{
+    margin: auto;
+    width: 20%;
+    cursor: pointer;
+    text-shadow: 2px 3px 6px black;
+}
+
+.divlink img{
+    width: 90%;
+    height: 90%;
+    box-shadow: 4px 6px 3px rgba(0, 0, 0, 0.50);
+}
+
+.divlink:hover{
+    opacity: 0.5;
+}
+
+.perguntas{
+    text-align: left;
+}
+
+.comentario{
+    border-style: solid;
+    border-radius: 100px;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.519);
+}
+
+._textComent{
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+._textComent:hover{
+    overflow: visible;
+    white-space: inherit;
+}
+
+.foto-perfil{
+    border: 3px solid black;
+    border-radius: 100px;
+    margin: 2% -8% 2% 3%;
+    height: 5%;
+    width: 10%;
+}
+
+#temporadas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.temp{
+    width: 300px;
+    margin: 5px;
+    border: solid;
+    border-color: #8BCF21;
+}
+
+.temp div {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.849);
+
+    width: 290px;
+    text-align: center;
+    border: 2px solid #8BCF21;
+}
+
+.temp div p:hover{
+    background-color: rgba(100, 100, 100, 0.849);
+}
+
+.temp:hover div{
+    display: block;
+}
+
+footer{
+    padding: 1px;
+    background-color: #8BCF21;
+    text-align: center;
+    box-shadow: 0px -10px 20px black;
+}
+
+footer a{
+    color: #fffb01;
+}
+
+li{
+    padding: 10px;
+}
+
+#icon{
+    width: 80px;
+}
+
+#nofap{
+    height: 70em;
+    background-image: url(https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/3cd2665624b775b442de07c70f8d6a6a3fe03dc528b72d04eb2ead543a686966_1.jpg);
+    background-size: 100%;
+
+}
+
+.sectionImage{
+    border: 3px solid #8BCF21;
+    width: 90%;
+
+}
+
+form{
+    margin-inline: 5%;
+    border: 3px solid #8BCF21;
+}
+
+@media (max-width: 425px) {
+    
+}
