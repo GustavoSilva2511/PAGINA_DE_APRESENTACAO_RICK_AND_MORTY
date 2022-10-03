@@ -2,6 +2,11 @@
     font-family: 'Franklin Gothic Medium';
 }
 
+:root{
+    --green: #8BCF21;
+    --purple: #85007e;
+}
+
 body{
     margin: auto;
     background-image: url(https://i.pinimg.com/originals/22/58/24/2258249e9b4084cda4fdc9c798818d19.jpg);
@@ -29,6 +34,7 @@ header div img{
     border: 2px solid black;
     border-radius: 100px;
 
+
 }
 
 main{
@@ -40,7 +46,7 @@ section{
     column-rule: 2px solid black;
     background-color:#00000091;
     text-align: center;
-    margin-inline: 10%;
+    margin-inline: 5%;
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 2px;
@@ -48,8 +54,22 @@ section{
     
 }
 section p {
-    margin-inline: 10%;
+    text-align: justify;
+    margin-inline: 5%;
     font-size: 120%;
+}
+#menu,
+#menu a{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 3px;
+    color: black;
+}
+
+#musicas div{
+    margin-inline: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #8BCF21;
 }
 
 #div-with-links{
@@ -92,6 +112,7 @@ section p {
 
 .comentario img{
     margin-top: 40px;
+    margin-left: 5px;
     align-self: flex-start;
 }
 
@@ -128,22 +149,8 @@ section p {
     border-color: #8BCF21;
 }
 
-.temp div {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.849);
-
-    width: 290px;
-    text-align: center;
+._resume-temp{
     border: 2px solid #8BCF21;
-}
-
-.temp div p:hover{
-    background-color: rgba(100, 100, 100, 0.849);
-}
-
-.temp:hover div{
-    display: block;
 }
 
 footer{
@@ -153,8 +160,12 @@ footer{
     box-shadow: 0px -10px 20px black;
 }
 
+a {
+    color: #8BCF21;
+}
+
 footer a{
-    color: #fffb01;
+    color: #85007e;
 }
 
 li{
@@ -165,14 +176,8 @@ li{
     width: 80px;
 }
 
-#nofap{
-    height: 70em;
-    background-image: url(https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/3cd2665624b775b442de07c70f8d6a6a3fe03dc528b72d04eb2ead543a686966_1.jpg);
-    background-size: 100%;
-
-}
-
-.sectionImage{
+.sectionMidia{
+    margin: 20px;
     border: 3px solid #8BCF21;
     width: 90%;
 
