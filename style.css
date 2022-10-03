@@ -1,4 +1,4 @@
- *{
+*{
     font-family: 'Franklin Gothic Medium';
 }
 
@@ -46,12 +46,12 @@ section{
     column-rule: 2px solid black;
     background-color:#00000091;
     text-align: center;
-    margin-inline: 5%;
+    margin-inline: 10%;
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 2px;
-    
-    
+
+    border-radius: 20px;
 }
 section p {
     text-align: justify;
@@ -121,6 +121,7 @@ section p {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-left: 10%;
 }
 
 ._textComent:hover{
